@@ -1,5 +1,4 @@
 
-table.c
 quiz.c
 
 
@@ -35,6 +34,7 @@ int main(){
 
 
 
+// Table
 # include<stdio.h>
 int main(){
     int i,table;
