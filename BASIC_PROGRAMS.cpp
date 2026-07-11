@@ -1,5 +1,4 @@
 
-factorial.c
 table.c
 quiz.c
 
@@ -19,6 +18,7 @@ int main(){
 
 
 
+// factorial
 # include<stdio.h>
 int main(){
     int a,f=1;
