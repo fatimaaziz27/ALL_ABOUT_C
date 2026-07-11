@@ -1,5 +1,4 @@
 
-quiz.c
 
 
 
@@ -52,6 +51,7 @@ int main(){
 
 
 
+// Quiz
 #include <stdio.h>
 int main() {
     int ans, Q1, Q2, Q3;
