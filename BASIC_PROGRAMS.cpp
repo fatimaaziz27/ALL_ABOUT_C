@@ -1,5 +1,12 @@
+loop_variables.c
+factorial.c
+table.c
+quiz.c
+
+
+
+
 # include <stdio.h>
-// # include <conio.h>
 int main(){
     int a,b=10,c=15;
     for(a=6; a<=8; a++){
