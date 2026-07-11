@@ -1,7 +1,3 @@
-
-
-
-
 // loop_variables
 # include <stdio.h>
 int main(){
@@ -13,9 +9,6 @@ int main(){
     }
 }
 
-
-
-
 // factorial
 # include<stdio.h>
 int main(){
@@ -25,13 +18,6 @@ int main(){
         printf("%d %d \n",a,f);
     }
 }
-
-
-
-
-
-
-
 
 // Table
 # include<stdio.h>
@@ -43,13 +29,6 @@ int main(){
         printf("%d X %d = %d \n",table,i,table*i);
     }
 }
-
-
-
-
-
-
-
 
 // Quiz
 #include <stdio.h>
@@ -86,4 +65,3 @@ int main() {
         printf("Quiz cancelled.\n");
     }
 }
-    
