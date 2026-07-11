@@ -8,3 +8,40 @@ int main(){
         printf("%d\t%d\t%d\t\n",a,b,c);
     }
 }
+
+
+#include <stdio.h>
+int main() {
+    int ans, Q1, Q2, Q3;
+    printf("Do you want to play a quiz? (0/1): ");
+    scanf("%d", &ans);
+    if (ans == 1) {
+    
+        printf("2 + 2 = ");
+        scanf("%d", &Q1);
+        if (Q1 == 4)
+            printf("Answer is correct.\n");
+        else
+            printf("Wrong answer.\n");
+
+
+        printf("2 + 12 = ");
+        scanf("%d", &Q2);
+        if (Q2 == 14)
+            printf("Answer is correct.\n");
+        else
+            printf("Wrong answer.\n");
+
+
+        printf("2 + 8 = ");
+        scanf("%d", &Q3);
+        if (Q3 == 10)
+            printf("Answer is correct.\n");
+        else
+            printf("Wrong answer.\n");
+    } 
+    else {
+        printf("Quiz cancelled.\n");
+    }
+}
+    
