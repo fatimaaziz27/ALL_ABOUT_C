@@ -10,6 +10,33 @@ int main(){
 }
 
 
+
+
+# include<stdio.h>
+int main(){
+    int a,f=1;
+    for (a=1; a<=10; a++){
+        f=f*a;
+        printf("%d %d \n",a,f);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #include <stdio.h>
 int main() {
     int ans, Q1, Q2, Q3;
