@@ -37,7 +37,14 @@ int main(){
 // c → Odd numbers (1, 3, 5, ..., 19)
 // d → Numbers in reverse (10, 9, 8, ..., 1)
 // CODE:
-
+# include<stdio.h>
+int main(){
+    int a,b=0,c=-1,d=11;
+    for(a=1; a<=10; a=a+1){
+        b=b+2; c=c+2; d=d-1;
+        printf("%d \t %d \t %d \t %d \t \n",a,b,c,d);
+    }
+}
 
 // Quiz
 #include <stdio.h>
