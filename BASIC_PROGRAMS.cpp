@@ -31,7 +31,12 @@ int main(){
 }
 
 // Even, Odd, and Reverse Number Pattern Program
-
+// This program uses a for loop to print:
+// a → Numbers from 1 to 10
+// b → Even numbers (2, 4, 6, ..., 20)
+// c → Odd numbers (1, 3, 5, ..., 19)
+// d → Numbers in reverse (10, 9, 8, ..., 1)
+// CODE:
 
 
 // Quiz
