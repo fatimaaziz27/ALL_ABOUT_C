@@ -9,6 +9,20 @@ int main(){
     }
 }
 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 5;
+    int y = 3;
+    int z = x % y;  // z = 5 % 3 = 2 (remainder)
+
+    cout << x - z << endl;  // 5 - 2 = 3
+
+    return 0;
+}
+
+
 // Variable Increment Program
 # include<stdio.h>
 int main(){
