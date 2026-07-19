@@ -9,6 +9,8 @@ int main(){
     }
 }
 
+
+// Modulus Operator Program
 #include <iostream>
 using namespace std;
 
@@ -22,6 +24,19 @@ int main() {
     return 0;
 }
 
+// Minutes Calculator
+#include <iostream>
+using namespace std;
+
+int main() {
+    int hours = 24;
+    int minutes = 60;
+    int result = hours * minutes;  // Multiplication
+
+    cout << result << endl;
+
+    return 0;
+}
 
 // Variable Increment Program
 # include<stdio.h>
