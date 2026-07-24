@@ -9,7 +9,6 @@ int main(){
     }
 }
 
-
 // Modulus Operator Program
 #include <iostream>
 using namespace std;
@@ -86,7 +85,17 @@ int main(){
 }
 
 // Density Calculator
-
+#include <stdio.h>
+int main()
+{
+    int d,m,v;
+    printf("Type value of Mass: ");
+    scanf("%d",&m);
+    printf("Type value of Volume: ");
+    scanf("%d",&v);
+    d = m/v;
+    printf("Calculated Density: %d",d);
+}
 
 
 
