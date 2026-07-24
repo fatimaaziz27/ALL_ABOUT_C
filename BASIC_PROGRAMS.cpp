@@ -110,8 +110,18 @@ int main()
     printf("Calculated Force: %d",f);
 }
 
-
-
+// Area Calculator
+#include <stdio.h>
+int main()
+{
+    int a,h,l;
+    printf("Type value of Heigth: ");
+    scanf("%d",&h);
+    printf("Type value of Length: ");
+    scanf("%d",&l);
+    a = h*l;
+    printf("Calculated Area: %d",a);
+}
 
 
 
