@@ -98,6 +98,17 @@ int main()
 }
 
 
+#include <stdio.h>
+int main()
+{
+    int f,m,a;
+    printf("Type value of Mass: ");
+    scanf("%d",&m);
+    printf("Type value of Accleratin: ");
+    scanf("%d",&a);
+    f = m*a;
+    printf("Calculated Force: %d",f);
+}
 
 
 
