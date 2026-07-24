@@ -123,10 +123,7 @@ int main()
     printf("Calculated Area: %d",a);
 }
 
-
-
-
-
+// Student Marks Percentage Calculator
 #include <stdio.h>
 int main()
 {
@@ -143,11 +140,6 @@ int main()
     printf("Total obtained marks: %d",total);
     printf("\nPercentage: %f",per);
 }
-
-
-
-
-
 
 // Quiz
 #include <stdio.h>
