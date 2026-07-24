@@ -127,7 +127,22 @@ int main()
 
 
 
-
+#include <stdio.h>
+int main()
+{
+    int total,eng,math,comp;
+    float per;
+    printf("Type computer marks: ");
+    scanf("%d",&comp);
+    printf("Type English marks: ");
+    scanf("%d",&eng);
+    printf("Type Math marks: ");
+    scanf("%d",&math);
+    total = eng + math + comp;
+    per = (total * 100) / 300;
+    printf("Total obtained marks: %d",total);
+    printf("\nPercentage: %f",per);
+}
 
 
 
