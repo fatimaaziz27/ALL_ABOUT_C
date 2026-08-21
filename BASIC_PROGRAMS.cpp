@@ -155,6 +155,38 @@ int main()
     printf("\nPercentage: %f",per);
 }
 
+variable
+#include <stdio.h>
+int main() {
+
+    int roll;
+    char name[25];
+    float height;
+    char gender;
+
+    printf("Type your roll no.: ");
+    scanf("%d", &roll);
+
+    printf("Type your name: ");
+    scanf("%s", name);
+
+    printf("Type your height: ");
+    scanf("%f", &height);
+
+    printf("Type your gender: ");
+    scanf(" %c", &gender);
+
+    printf("\n\n\t\t\t\tStudent Bio-Data");
+    printf("\n\t\t\t\t_______________________");
+
+    printf("\n\n\n\t\tRoll no.       :: %d", roll);
+    printf("\n\n\n\t\tName           :: %s", name);
+    printf("\n\n\n\t\tHeight         :: %.2f", height);
+    printf("\n\n\n\t\tGender         :: %c", gender);
+
+    return 0;
+}
+
 // Quiz
 #include <stdio.h>
 int main() {
