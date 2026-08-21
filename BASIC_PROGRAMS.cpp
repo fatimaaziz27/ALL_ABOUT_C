@@ -178,12 +178,10 @@ int main() {
 
     printf("\n\n\t\t\t\tStudent Bio-Data");
     printf("\n\t\t\t\t_______________________");
-
     printf("\n\n\n\t\tRoll no.       :: %d", roll);
     printf("\n\n\n\t\tName           :: %s", name);
     printf("\n\n\n\t\tHeight         :: %.2f", height);
     printf("\n\n\n\t\tGender         :: %c", gender);
-
     return 0;
 }
 
