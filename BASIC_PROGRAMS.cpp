@@ -155,10 +155,9 @@ int main()
     printf("\nPercentage: %f",per);
 }
 
-variable
+// variable
 #include <stdio.h>
 int main() {
-
     int roll;
     char name[25];
     float height;
@@ -166,13 +165,10 @@ int main() {
 
     printf("Type your roll no.: ");
     scanf("%d", &roll);
-
     printf("Type your name: ");
     scanf("%s", name);
-
     printf("Type your height: ");
     scanf("%f", &height);
-
     printf("Type your gender: ");
     scanf(" %c", &gender);
 
