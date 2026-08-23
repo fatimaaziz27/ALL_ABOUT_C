@@ -12,6 +12,27 @@ int main()
 
 }
 
+// Subtraction
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c;
+
+    printf("Type value of num1: ");
+    scanf("%d", &a);
+
+    printf("Type value of num2: ");
+    scanf("%d", &b);
+
+    c = a - b;
+
+    printf("num1 - num2 = %d", c);
+
+    return 0;
+}
+
 // loop_variables
 # include <stdio.h>
 int main(){
