@@ -89,6 +89,29 @@ int main()
     return 0;
 }
 
+// Student Pass or Fail
+
+#include <stdio.h>
+
+int main()
+{
+    int marks;
+
+    printf("Type student marks: ");
+    scanf("%d", &marks);
+
+    if(marks >= 40)
+    {
+        printf("Student is Passed.");
+    }
+    else
+    {
+        printf("Student is Failed.");
+    }
+
+    return 0;
+}
+
 // loop_variables
 # include <stdio.h>
 int main(){
