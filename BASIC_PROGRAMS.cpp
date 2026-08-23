@@ -50,6 +50,26 @@ int main()
     return 0;
 }
 
+// Square and Cube
+
+#include <stdio.h>
+
+int main()
+{
+    int num, square, cube;
+
+    printf("Type any number: ");
+    scanf("%d", &num);
+
+    square = num * num;
+    cube = num * num * num;
+
+    printf("Square = %d", square);
+    printf("\nCube = %d", cube);
+
+    return 0;
+}
+
 // loop_variables
 # include <stdio.h>
 int main(){
