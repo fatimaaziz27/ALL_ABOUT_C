@@ -43,22 +43,16 @@ int main()
 }
 
 // Square and Cube
-
 #include <stdio.h>
-
 int main()
 {
     int num, square, cube;
-
     printf("Type any number: ");
     scanf("%d", &num);
-
     square = num * num;
     cube = num * num * num;
-
     printf("Square = %d", square);
     printf("\nCube = %d", cube);
-
     return 0;
 }
 
