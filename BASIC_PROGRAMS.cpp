@@ -57,21 +57,16 @@ int main()
 }
 
 // Number Pattern
-
 #include <stdio.h>
-
 int main()
 {
     int a, b = 0, c = 10;
-
     for(a = 1; a <= 10; a++)
     {
         b = b + 1;
         c = c - 1;
-
         printf("%d\t%d\t%d\n", a, b, c);
     }
-
     return 0;
 }
 
