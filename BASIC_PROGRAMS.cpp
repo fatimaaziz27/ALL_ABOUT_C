@@ -71,16 +71,12 @@ int main()
 }
 
 // Student Pass or Fail
-
 #include <stdio.h>
-
 int main()
 {
     int marks;
-
     printf("Type student marks: ");
     scanf("%d", &marks);
-
     if(marks >= 40)
     {
         printf("Student is Passed.");
@@ -89,7 +85,6 @@ int main()
     {
         printf("Student is Failed.");
     }
-
     return 0;
 }
 
