@@ -27,26 +27,18 @@ int main()
 }
 
 // Simple Interest Calculator
-
 #include <stdio.h>
-
 int main()
 {
     int p, r, t, si;
-
     printf("Type value of Principal: ");
     scanf("%d", &p);
-
     printf("Type value of Rate: ");
     scanf("%d", &r);
-
     printf("Type value of Time: ");
     scanf("%d", &t);
-
     si = (p * r * t) / 100;
-
     printf("Calculated Simple Interest: %d", si);
-
     return 0;
 }
 
