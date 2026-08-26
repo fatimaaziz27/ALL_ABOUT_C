@@ -40,6 +40,32 @@ int main()
     return 0;
 }
 
+// Largest of Three Numbers
+#include <stdio.h>
+int main()
+{
+    int a, b, c;
+    printf("Type value of num1: ");
+    scanf("%d", &a);
+    printf("Type value of num2: ");
+    scanf("%d", &b);
+    printf("Type value of num3: ");
+    scanf("%d", &c);
+    if(a > b && a > c)
+    {
+        printf("num1 is greater");
+    }
+    else if(b > a && b > c)
+    {
+        printf("num2 is greater");
+    }
+    else
+    {
+        printf("num3 is greater");
+    }
+    return 0;
+}
+
 // Simple Interest Calculator
 #include <stdio.h>
 int main()
