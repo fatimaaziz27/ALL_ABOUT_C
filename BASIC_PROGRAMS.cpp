@@ -66,6 +66,19 @@ int main()
     return 0;
 }
 
+// Sum of Even Numbers
+#include <stdio.h>
+int main()
+{
+    int a, sum = 0;
+    for(a = 2; a <= 20; a = a + 2)
+    {
+        sum = sum + a;
+    }
+    printf("Sum of Even Numbers = %d", sum);
+    return 0;
+}
+
 // Simple Interest Calculator
 #include <stdio.h>
 int main()
