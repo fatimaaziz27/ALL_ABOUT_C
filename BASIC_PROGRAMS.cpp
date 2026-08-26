@@ -107,6 +107,20 @@ int main()
     return 0;
 }
 
+// Count and Total
+#include <stdio.h>
+int main()
+{
+    int a, total = 0;
+    for(a = 1; a <= 10; a++)
+    {
+        total = total + a;
+        printf("%d\n", a);
+    }
+    printf("Total = %d", total);
+    return 0;
+}
+
 // Square and Cube
 #include <stdio.h>
 int main()
