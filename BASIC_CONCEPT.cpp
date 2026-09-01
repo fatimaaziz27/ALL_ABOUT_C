@@ -50,6 +50,13 @@ printf("Hello");
 data_type  name ; 
 data_type  name = value;
 // Code:
+// Initializing (This type of initializing is optional)
+int num;
+char letter;
+float decimal_num; 
+char word;
+
+// Initializing
 int num = 65;
 char letter = 'r';
 float decimal_num = 3.14; 
