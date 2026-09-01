@@ -9,6 +9,8 @@ int main()
 
 
 
+
+
 // Addition
 #include <stdio.h>
 int main()
@@ -27,6 +29,7 @@ int main()
 
     return 0;
 }
+
 
 
 
@@ -100,6 +103,7 @@ int main()
 
 
 
+
 // Basic Calculator
 #include <stdio.h>
 int main()
@@ -127,6 +131,7 @@ int main()
 
     return 0;
 }
+
 
 
 
@@ -192,11 +197,8 @@ int main()
 
 
 
-
 // Greater Number
-
 #include <stdio.h>
-
 int main()
 {
     int num1, num2;
@@ -225,10 +227,10 @@ int main()
 
 
 
+
+
 // Increment and Decrement
-
 #include <stdio.h>
-
 int main()
 {
     int num;
