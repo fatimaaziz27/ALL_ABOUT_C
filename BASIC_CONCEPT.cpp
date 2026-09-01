@@ -42,8 +42,8 @@ printf("Hello");
 |   ||   |   OR   |
 |   !   |   NOT   |
 
-Assignig
-
+// Assigning Keyword 
+|         =         |
 
 
 
