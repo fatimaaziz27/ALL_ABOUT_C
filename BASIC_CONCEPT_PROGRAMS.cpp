@@ -1,3 +1,117 @@
+// My Age
+
+#include <stdio.h>
+
+int main()
+{
+    int age = 11;
+
+    printf("My age is %d", age);
+
+    return 0;
+}
+
+
+
+// Addition
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b, answer;
+
+    printf("Type first number: ");
+    scanf("%d", &a);
+
+    printf("Type second number: ");
+    scanf("%d", &b);
+
+    answer = a + b;
+
+    printf("Answer = %d", answer);
+
+    return 0;
+}
+
+
+
+
+// Even or Odd
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    printf("Type a number: ");
+    scanf("%d", &num);
+
+    if(num % 2 == 0)
+    {
+        printf("Even Number");
+    }
+    else
+    {
+        printf("Odd Number");
+    }
+
+    return 0;
+}
+
+
+
+
+
+// Age Checker
+
+#include <stdio.h>
+
+int main()
+{
+    int age;
+
+    printf("Type your age: ");
+    scanf("%d", &age);
+
+    if(age >= 18)
+    {
+        printf("You are an adult");
+    }
+    else
+    {
+        printf("You are a child");
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+// Increment
+
+#include <stdio.h>
+
+int main()
+{
+    int num = 5;
+
+    printf("Before = %d\n", num);
+
+    num++;
+
+    printf("After = %d", num);
+
+    return 0;
+}
+
+
+
+
 // Basic Calculator
 #include <stdio.h>
 
