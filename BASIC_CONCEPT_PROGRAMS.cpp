@@ -57,9 +57,7 @@ int main()
 
 
 // Age Checker
-
 #include <stdio.h>
-
 int main()
 {
     int age;
