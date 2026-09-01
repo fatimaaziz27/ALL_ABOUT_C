@@ -45,12 +45,15 @@ printf("Hello");
 // Assigning Keyword ----->
 |         =         |
 
-
-
-
-
-
-
+// Variables ------->
+// Syntax
+data_type  name ; 
+data_type  name = value;
+// Code:
+int num = 65;
+char letter = 'r';
+float decimal_num = 3.14; 
+char word = "word";
 
 
     
