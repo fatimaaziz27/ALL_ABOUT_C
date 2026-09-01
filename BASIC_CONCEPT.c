@@ -1,6 +1,40 @@
 //                         BASIC CONCEPTS
 //                        ================
 
+
+ALL_ABOUT_C
+│
+├── 01_BASICS
+│   ├── variables.c
+│   ├── data_types.c
+│   ├── operators.c
+│   └── input_output.c
+│
+├── 02_CONDITIONS
+│   ├── if_else.c
+│   └── switch.c
+│
+├── 03_LOOPS
+│   ├── for_loop.c
+│   ├── while_loop.c
+│   └── do_while.c
+│
+├── 04_FUNCTIONS
+│   └── functions.c
+│
+├── 05_ARRAYS
+│   └── arrays.c
+│
+├── 06_POINTERS
+│   └── pointers.c
+│
+├── 07_STRUCTURES
+│   └── structures.c
+│
+└── README.md
+
+
+
 // Preprocessor Directive ----->
 #include <stdio.h>
 int main()
