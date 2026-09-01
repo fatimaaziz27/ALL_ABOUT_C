@@ -1,95 +1,23 @@
 //                         BASIC CONCEPTS
 //                        ================
-                           
-// Preprossor Directory --->
-#include <stdio.h>
- int main(){
-  // main code here <---->
-}
-
-// Print Statement ----->
-// Syntax
-printf( "write here..." );
-// Code:
-printf("Hello");
-
-// Types Of Comments ------->
-// single line comments
-// comment here ......
-// multi line comments
-/*   comment here ......   */
-
-// Data Types 
-// Name           Type               Keyword 
-  bool           true/false           ---
-  int            123456577            %d
-  char/string    letter/word        %c / %s
-  float          3.14                 %f
-
-// Operators ------>
-
-// Arithemetic Assignment Operators
-|   +=   |   ==   |   *=   |   /=   |
-
-// Increment / Decrement 
-|   ++   |   --   |    
-
-// Relational Operators 
-|   >   |   ==   |   <   |   <=   |   >=   |   !   |
-
-// Logical Operators
-|   &&   |   AND   |
-|   ||   |   OR   |
-|   !   |   NOT   |
-
-// Assigning Keyword ----->
-|         =         |
-
-// Variables ------->
-// Syntax
-data_type  name ; 
-data_type  name = value;
-// Code:
-// Initializing (This type of initializing is optional)
-int num;
-char letter;
-float decimal_num; 
-char word;
-
-// Initializing
-int num = 65;
-char letter = 'r';
-float decimal_num = 3.14; 
-char word = "word";
-
-
-    
-    
-//                         BASIC CONCEPTS
-//                        ================
 
 // Preprocessor Directive ----->
 #include <stdio.h>
-
 int main()
 {
     // main code here <---->
-
     return 0;
 }
 
-
 // Print Statement ----->
-//
 // Syntax:
 printf("write here...");
-
 // Code:
 printf("Hello");
 
 
 // Types of Comments ----->
-//
+
 // Single-line comment:
 // comment here ......
 
@@ -100,7 +28,6 @@ printf("Hello");
 
 
 // Data Types ----->
-//
 // Name          Example              Keyword / Format Specifier
 // int           123456               %d
 // char          'A'                  %c
