@@ -11,7 +11,6 @@ int main()
 
 // Addition
 #include <stdio.h>
-
 int main()
 {
     int a, b, answer;
@@ -33,9 +32,7 @@ int main()
 
 
 // Even or Odd
-
 #include <stdio.h>
-
 int main()
 {
     int num;
