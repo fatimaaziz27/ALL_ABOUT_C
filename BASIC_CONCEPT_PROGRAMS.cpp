@@ -83,9 +83,7 @@ int main()
 
 
 // Increment
-
 #include <stdio.h>
-
 int main()
 {
     int num = 5;
@@ -104,7 +102,6 @@ int main()
 
 // Basic Calculator
 #include <stdio.h>
-
 int main()
 {
     int num1, num2;
@@ -135,9 +132,7 @@ int main()
 
 
 // Student Information
-
 #include <stdio.h>
-
 int main()
 {
     int roll;
@@ -173,9 +168,7 @@ int main()
 
 
 // Even or Odd
-
 #include <stdio.h>
-
 int main()
 {
     int num;
