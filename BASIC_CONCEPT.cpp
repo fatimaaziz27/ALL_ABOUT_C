@@ -171,16 +171,14 @@ int num = 10;
 
 
 // Initializing Variables
-// This type of declaration is optional:
 
+// This type of declaration is optional:
 int num;
 char letter;
 float decimal_num;
 char word[25];
 
-
 // Initializing Variables
-
 int number = 65;
 char letter = 'r';
 float decimal_num = 3.14;
