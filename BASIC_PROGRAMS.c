@@ -366,6 +366,51 @@ int main()
     printf("\n\n\t\t\t\tGender :: %c", gender);
 }
 
+#include <stdio.h>
+int main()
+{
+    int ID;
+    char name[25];
+    int m,u,c,marks;
+    float per;
+
+    printf("\n\n\t\t\t Institute Name");
+    printf("\n\t\t\t________________\n");
+    
+    printf("\n\t ID       ::  ");
+    scanf("%d",&ID);
+    printf("\n\t Name       ::  ");
+    scanf("%s",&name);
+    printf("\n\t Math       ::  ");
+
+    scanf("%d",&m);
+    printf("\n\t Urdu       ::  ");
+    scanf("%d",&u);
+    printf("\n\t Computer       ::  ");
+    scanf("%d",&c);
+
+    marks = m + c + u;
+    per = marks*100/300;
+    printf("\n\n\t Marks Obtained    ::%d",marks);
+    printf("\n\n\t Percentage    ::%f",per);
+
+    if (per > 79.99){
+        printf("\n\n\t Grade: A1");
+    }
+    else if (per > 69.99){
+        printf("\n\n\t Grade: A");
+    }
+    else if (per > 59.99){
+        printf("\n\n\t Grade: B");
+    }
+    else if (per > 49.99){
+        printf("\n\n\t Grade: C");
+    }
+    else {
+        printf("\n\n\t Grade: Fail");
+    }
+
+}
 
 // Quiz
 #include <stdio.h>
