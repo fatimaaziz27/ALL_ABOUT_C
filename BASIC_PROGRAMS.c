@@ -366,6 +366,7 @@ int main()
     printf("\n\n\t\t\t\tGender :: %c", gender);
 }
 
+STUDENT_RESULT_CALCULATOR
 #include <stdio.h>
 int main()
 {
@@ -409,7 +410,6 @@ int main()
     else {
         printf("\n\n\t Grade: Fail");
     }
-
 }
 
 // Quiz
