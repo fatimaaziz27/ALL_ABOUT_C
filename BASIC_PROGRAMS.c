@@ -18,15 +18,14 @@ scanf("% c",&gender);
    
 printf("\n\n\t\t\t\t  Student Bio-Data");
 printf("\n\n\t\t\t\t  __________________");
+   
 printf("\n\n\t\t\t\t  ID ::      %d",ID);
 printf("\n\n\t\t\t\t  Name ::      %scanf",ID);
 printf("\n\n\t\t\t\t  Height ::      %f",ID);
 printf("\n\n\t\t\t\t  Gender ::      % c",ID);
    
-   
    getch();
    return 0;
-   
 }
 
 
