@@ -336,7 +336,7 @@ int main() {
     return 0;
 }
 
-Positive Negative Checker
+// Positive Negative Checker
 #include <stdio.h>
 int main()
 {
