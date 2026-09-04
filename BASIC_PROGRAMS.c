@@ -366,7 +366,7 @@ int main()
     printf("\n\n\t\t\t\tGender :: %c", gender);
 }
 
-STUDENT_RESULT_CALCULATOR
+Studet Result Calculator
 #include <stdio.h>
 int main()
 {
