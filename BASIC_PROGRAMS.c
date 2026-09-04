@@ -1,41 +1,3 @@
-#include <stdio.h>
-#include <conio.h>
-int main(){
-   
-int ID;
-char name[25];
-float height;
-char gender;
-
-printf("Type your ID: ");
-scanf("%d",&ID);
-printf("Type your name: ");
-scanf("%s",&name);
-printf("Type your height: ");
-scanf("%f",&height);
-printf("Type your gender: ");
-scanf("% c",&gender);
-   
-printf("\n\n\t\t\t\t  Student Bio-Data");
-printf("\n\n\t\t\t\t  __________________");
-   
-printf("\n\n\t\t\t\t  ID ::      %d",ID);
-printf("\n\n\t\t\t\t  Name ::      %scanf",ID);
-printf("\n\n\t\t\t\t  Height ::      %f",ID);
-printf("\n\n\t\t\t\t  Gender ::      % c",ID);
-   getch();
-   return 0;
-}
-
-
-
-
-
-
-
-
-
-
 // Addition
 #include <stdio.h>
 int main()
@@ -373,6 +335,37 @@ int main() {
     printf("\n\n\n\t\tGender         :: %c", gender);
     return 0;
 }
+
+
+#include <stdio.h>
+int main()
+{
+    int ID;
+    char name[25];
+    float height;
+    char gender;
+
+    printf("Type your ID: ");
+    scanf("%d", &ID);
+
+    printf("Type your name: ");
+    scanf("%s", name);
+
+    printf("Type your height: ");
+    scanf("%f", &height);
+
+    printf("Type your gender: ");
+    scanf(" %c", &gender);
+
+    printf("\n\n\t\t\t\tStudent Bio-Data");
+    printf("\n\t\t\t\t________________________");
+
+    printf("\n\n\t\t\t\tID :: %d", ID);
+    printf("\n\n\t\t\t\tName :: %s", name);
+    printf("\n\n\t\t\t\tHeight :: %.2f", height);
+    printf("\n\n\t\t\t\tGender :: %c", gender);
+}
+
 
 // Quiz
 #include <stdio.h>
