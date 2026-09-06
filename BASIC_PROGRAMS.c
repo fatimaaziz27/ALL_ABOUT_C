@@ -40,6 +40,24 @@ int main()
     return 0;
 }
 
+#include <stdio.h>
+int main() {
+    
+    char a;
+    printf("Enter your gender: ");
+    scanf("%c",&a);
+    if (a == 'm' || a == 'M'){
+        printf("you are male");
+    }
+    else if (a == 'f' || a == 'F'){
+        printf("you are female");
+    }
+    else{
+        printf("invalid anwer");
+    }
+    return 0;
+} 
+
 // Message Choice
 #include <stdio.h>
 int main() {
