@@ -58,6 +58,34 @@ int main() {
     return 0;
 } 
 
+#include <stdio.h>
+int main() {
+
+    int a,b,c,d;
+    printf("Enter num1: ");
+    scanf("%d",&a);
+    printf("Enter num2: ");
+    scanf("%d",&b);
+    printf("Enter num3: ");
+    scanf("%d",&c);
+    printf("Enter num4: ");
+    scanf("%d",&d);
+    
+    if (a > b && a > c && a > d){
+        printf("num1 is greater %d", a);
+    }
+    else if (b > a && b > c && b > d){
+        printf("num2 is greater %d", b);
+    }
+    else if (c > a && c > b && c > d){
+        printf("num3 is greater %d", c);
+    }
+    else{
+        printf("num4 is greater %d", d);
+    }
+    return 0;
+} 
+
 // Message Choice
 #include <stdio.h>
 int main() {
