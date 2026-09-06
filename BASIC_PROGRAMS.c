@@ -40,22 +40,7 @@ int main()
     return 0;
 }
 
-#include <stdio.h>
-int main() {
-    int a;
-    printf("Enter any number: ");
-    scanf("%d",&a);
 
-    if (a > 0){
-        printf("Positive number");
-    }
-    else if (a == 0){
-        printf("Zero");
-    }
-    else{
-        printf("Negative number");
-    }
-} 
 
 // Largest of Three Numbers
 #include <stdio.h>
