@@ -40,13 +40,12 @@ int main()
     return 0;
 }
 
+// Message Choice
 #include <stdio.h>
 int main() {
-
     int a;
     printf("Enter any number from 1-4: ");
     scanf("%d",&a);
-
     if (a == 1){
         printf("hello");
     }
@@ -62,7 +61,6 @@ int main() {
     else{
         printf("invalid number");
     }
-
 } 
 
 // Largest of Three Numbers
