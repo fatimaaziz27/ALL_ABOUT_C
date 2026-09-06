@@ -40,6 +40,20 @@ int main()
     return 0;
 }
 
+#include <stdio.h>
+int main() {
+    int a;
+    printf("Enter any number: ");
+    scanf("%d",&a);
+    if (a >= 1 && a <= 10){
+        printf("number is in the range of 1-10");
+    }
+    else {
+        printf("number is out of range of 1-10");
+    }
+    return 0;
+} 
+
 // Gender Checker
 #include <stdio.h>
 int main() {
