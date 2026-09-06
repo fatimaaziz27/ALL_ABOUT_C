@@ -40,9 +40,9 @@ int main()
     return 0;
 }
 
+// Gender Checker
 #include <stdio.h>
 int main() {
-    
     char a;
     printf("Enter your gender: ");
     scanf("%c",&a);
